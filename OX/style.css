@@ -1,0 +1,55 @@
+#gora{
+    text-align: center;
+    background-image: url("../obrazki/tlo.webp");
+    padding: 5px;
+    color: rgb(125, 144, 187);
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    margin: auto;
+}
+body{
+    background-color: #24272E;
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #fff
+}
+.napis{
+    font-size: 1.3em;
+}
+div{
+    text-align: center;
+}
+.grid-container{
+    margin: auto;
+    margin-top: 2%;
+    width: 300px;
+    height: 300px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 100px 100px;
+    font-size: 4em;
+    color: #999;
+}
+.t{
+    border-top: 1px solid #ddd;
+}
+.b{
+    border-bottom: 1px solid #ddd;
+}
+.l{
+    border-left: 1px solid #ddd;
+}
+.r{
+    border-right: 1px solid #ddd;
+}
+#o{
+    color: #88f;
+}
+
+#x{
+    color: #88f;
+}
+

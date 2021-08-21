@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Jednoreki bandyta</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+    <link href="obrazki/favicon.gif" rel="icon" type="image/gif" />
+</head>
+<body onLoad="stanKonta(); kolorki()">
+    <a href="../index.html"><div id="gora"><h1>JEDNOREKI BANDYTA</h1></div></a>
+    <div id="main" class="grid-container">
+        <div id="obrazek1" class="item"><img src="./obrazki/1.png"></div>
+        <div id="obrazek2" class="item"><img src="./obrazki/1.png"></div>
+        <div id="obrazek3" class="item"><img src="./obrazki/1.png"></div>
+        <div class="cena" id="cena1" onClick="koszt(1)">1</div>
+        <div id="obrazek4" class="item"><img src="./obrazki/1.png"></div>
+        <div id="obrazek5" class="item"><img src="./obrazki/1.png"></div>
+        <div id="obrazek6" class="item"><img src="./obrazki/1.png"></div>
+        <div id="guzik" class="przycisk"><img src="./obrazki/dzwignia1.jpg" onClick="start()"></div>
+        <div id="obrazek7" class="item"><img src="./obrazki/1.png"></div>
+        <div id="obrazek8" class="item"><img src="./obrazki/1.png"></div>
+        <div id="obrazek9" class="item"><img src="./obrazki/1.png"></div>
+        <div class="cena" id="cena5" onClick="koszt(5)">5</div>
+        
+            <div class="item2">
+                <div><img onClick="doladuj(30)" src="./obrazki/sm.jpg"></div>
+                <div>30 za 12,30zł SMS</div>
+            </div>
+            <div class="item2">
+                <div><img onClick="doladuj(90)" src="./obrazki/sm.jpg"></div>
+                <div>90 za 30,75zł SMS</div>
+            </div>
+            <div class="item2">
+                <div><img onClick="doladuj(240)" src="./obrazki/sm.jpg"></div>
+                <div>240 za 61,50zł SMS</div>
+            </div>
+            <div id="stan"> STAN KONTA: 
+                    <div id="konto">Błąd</div>
+                </div>
+    </div>
+
+        
+        
+        
+    <div id="komunikat"></div>
+</body>
+</html>

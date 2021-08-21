@@ -1,0 +1,100 @@
+body{
+    background-color: #24272E;
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#gora{
+    text-align: center;
+    background-image: url("../obrazki/tlo.webp");
+    padding: 5px;
+    color: rgb(125, 144, 187);
+}
+.grid-container{
+    margin: auto;
+    margin-top: 2%;
+    width: 50%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.grid-container2{
+    border: 3px solid #777;
+    width: 25%;
+    margin-left: 5%;
+    margin-top: 1%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    
+}
+.cena{
+    background-color: #24272E;
+    font-size: 5vw;
+    text-align: center;
+    padding: 10%;
+    border: 2px solid;
+    color: rgb(125, 144, 187);
+    border-radius: 50px;
+    margin: 5%;
+}
+.cena:hover{
+    background-color: #10131E;
+    font-weight: bold;
+}
+.item{
+    border-radius: 100%;
+    border: 3px solid #aaa;
+    background-color: #fff;
+}
+.przycisk{
+    background-color: #24272E;
+}
+.item2{
+    border-left: 3px solid #aaa;
+    border-bottom: 3px solid #aaa;
+    border-top: 3px solid #aaa;
+    background-color: #fff;
+    font-size: 1.2vw;
+}
+
+img{
+    width: 100%;
+}
+#stan{
+    border-left: 3px solid #aaa;
+    border-top: 3px solid #aaa;
+    border-right: 3px solid #aaa;
+    border-bottom: 3px solid #aaa;
+    font-weight: bold;
+    background-color: #fff;
+    padding: 5px;
+    font-size: 2vw;
+}
+#konto{
+    color: #f00;
+    font-weight: bold;
+    font-size: 4.5vw;
+    text-align: center;
+    padding-top: 20px
+}
+#komunikat{
+    margin: auto;
+    margin-top: 2%;
+    width: 75%;
+    text-align: center;
+    background-color: #fff;
+    border: 2px solid #bbb;
+    font-weight: bold;
+    font-size: 3em;
+    display: none;
+    color: #24272E;
+}
+a{
+    text-decoration: none;
+}
+#cena1{
+    border-color: #f00;
+}
+#cena5{
+    border-color: #10131E;
+}
